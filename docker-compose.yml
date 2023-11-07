@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 services:
   django:
     build:
@@ -8,8 +8,8 @@ services:
         UID: ${UID:-20000}
         GID: ${GID:-20000}
     volumes:
-      - './django:/app/django'
+      - "./django:/app/django"
     ports:
-      - "8000:8000"
+      - "8000:80"
     tty: true
-    working_dir: '/app'
+    working_dir: "/app"
