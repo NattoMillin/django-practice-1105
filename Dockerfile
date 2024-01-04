@@ -19,7 +19,7 @@ RUN groupadd -g $GID dev \
 #ユーザーを追加。
 
 RUN mkdir /app
-RUN chown dev /app
+RUN chown -R dev /app
 USER dev
 
 WORKDIR /app

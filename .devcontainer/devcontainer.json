@@ -4,7 +4,7 @@
   "name": "Existing Docker Compose (Extend)",
   "dockerComposeFile": ["../docker-compose.yml", "docker-compose.yml"],
   "service": "django",
-  "workspaceFolder": "/app/django",
+  "workspaceFolder": "/app",
 
   "customizations": {
     "vscode": {
