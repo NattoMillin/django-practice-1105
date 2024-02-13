@@ -25,7 +25,6 @@ USER dev
 WORKDIR /app
 
 COPY django /app/
-COPY requirements.txt .
 
 RUN python -m pip install -r requirements.txt
 
